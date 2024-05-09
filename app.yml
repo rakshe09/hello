@@ -1,0 +1,7 @@
+runtime: python27
+api_version: 1
+threadsafe: false  # Set to false when using CGI handler
+
+handlers:
+- url: /
+  script: test.py  # Assuming test.py is your CGI handler script
